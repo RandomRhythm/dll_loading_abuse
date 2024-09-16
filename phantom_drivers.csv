@@ -1,0 +1,7 @@
+﻿Search_Order_Hijack,Loaded_By,Loaded_By_Paths,Operating_Systems,Search_Order_DLL_Functions,Notes
+winload.sys,tcbloader.dll,"System32,winsxs","Win11, Win10",,Confirmed on Win10 via rundll32.exe
+winload.sys,hvloader.dll,winsxs,"Win11, Win10",,Confirmed on Win11 via rundll32.exe
+cng.sys,ntoskrnl.exe,System32,"Win10, 2019",,Can't be run in win32 mode. Would need to be hijacked at boot
+msrpc.sys,ntoskrnl.exe,"System32,winsxs","Win10, 2012, 2019",,The complexity of attacking this seems challenging
+watchdog.sys,cdd.dll,winsxs,"Win10, 2012, 2019",,Tested on Win10 and it loaded the driver. 2019 also wanted to load the driver.
+cng.sys,securekernel.exe,System32,2019,,The complexity of attacking this seems challenging
