@@ -1,0 +1,27 @@
+﻿Search_Order_Hijack,Loaded_By,Loaded_By_Paths,Operating_Systems,Search_Order_DLL_Functions,Notes
+wwapi.dll,csplte.dll,system32\wbem\,2019,,
+wwapi.dll,tetheringclient.dll,system32\wbem\,2019,,
+wwapi.dll,uicciso.dll,driverstore\filerepository\,2019,,
+wwapi.dll,enterpriseapncsp.dll,system32\wbem\,2019,,
+wwapi.dll,uiccspb.dll,system32\drivers\umdf\,2019,,
+iphlpapi.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+firewallapi.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+fwbase.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+dnsapi.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+logoncli.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+ntdsapi.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+fwucint.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+mi.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+miutils.dll,wfascim.dll,\system32\wbem\,win10,,Observed via procmon on win10
+iphlpapi.dll,printerprotocolprovider.dll,system32\pointofservice\protocolproviders\,win10,,
+wdsutil.dll,winsetup.dll,system32\oobe,Win11,,
+cmisetup.dll,winsetup.dll,system32\oobe,Win11,,
+pnpibs.dll,winsetup.dll,system32\oobe,Win11,,
+samcli.dll,mdmsettingsprov.dll,system32\wbem\,2019,,
+ncrypt.dll,mdmsettingsprov.dll,system32\wbem\,2019,,
+deviceregistration.dll,mdmsettingsprov.dll,system32\wbem\,2019,,
+bthprops.cpl,mdmsettingsprov.dll,system32\wbem\,2019,,
+mi.dll,mdmsettingsprov.dll,system32\wbem\,2019,,
+sppcext.dll,mdmsettingsprov.dll,system32\wbem\,2019,,
+urlmon.dll,mdmsettingsprov.dll,system32\wbem\,2019,,
+sppc.dll,mdmsettingsprov.dll,system32\wbem\,2019,,
