@@ -8,3 +8,6 @@ This repository is dedicated to documenting different library files (DLLs) susce
 
 
 For phantom DLL I put anything that appeared to not exist in the search order. Phantom driver was for imports of driver files that did not exist on disk. Search order hijack is where the DLL exists, but you could place a DLL higher in the search order to hijack execution flow. 
+
+## References
+https://www.randomsecurityblog.com/2024/09/windows-phantom-dll-loading-forensic.html
